@@ -1,0 +1,62 @@
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 40px;
+}
+p {
+  font-size: 12px;
+}
+img {
+  width: 35%;
+}
+
+.container {
+  border-radius: 15px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 15px 15px 15px;
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
+  width: 55%;
+}
+
+.searchcity {
+  text-align: right;
+  margin-top: 10px;
+  padding: 5px;
+}
+.card-group {
+  text-align: center;
+}
+.card {
+  margin: 5px;
+  border: 1px solid;
+  box-shadow: rgb(37 39 89 / 50%) 0px 8px 8px 0;
+  background: transparent;
+}
+.card-info {
+  text-align: left;
+}
+.popis {
+  font-size: 14px;
+}
+.mainimage {
+  text-align: center;
+}
+#temperature {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#celsiusTemp {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  position: relative;
+  top: -16px;
+}
