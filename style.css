@@ -48,6 +48,11 @@ img {
 .mainimage {
   text-align: center;
 }
+.githubLink {
+  margin: 10px 10px 10px 10px;
+  font-size: 80%;
+  font-weight: 400;
+}
 #temperature {
   font-size: 40px;
   font-weight: 500;
