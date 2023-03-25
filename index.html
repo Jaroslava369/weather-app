@@ -19,22 +19,32 @@
       <div class="weather-app">
         <div class="searchcity">
           <form class="city" id="search-form">
-            <input
-              type="text"
-              name="city"
-              placeholder="Search city"
-              class="form-control"
-              id="city-search"
-              autocomplete="off"
-              autofocus="on"
-            />
-            <input type="submit" value="Search" />
+            <div class="row">
+              <div class="col-6">
+                <input
+                  type="text"
+                  name="city"
+                  placeholder="Search city"
+                  class="form-control"
+                  id="city-search"
+                  autocomplete="off"
+                  autofocus="on"
+                />
+              </div>
+              <div class="col-1">
+                <input
+                  type="submit"
+                  class="btn btn-primary input-btn"
+                  value="Search"
+                />
+              </div>
+            </div>
           </form>
         </div>
         <form>
           <div class="row">
-            <div class="col">
-              <h1 id="maincitySearch">Poprad, Slovakia</h1>
+            <div class="col-6">
+              <h1 id="maincitySearch">Poprad</h1>
               <h2>Sunday, 22/01/2023</h2>
               <h3 id="description">Clear</h3>
             </div>

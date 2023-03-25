@@ -50,9 +50,7 @@ img {
 .popis {
   font-size: 14px;
 }
-.mainimage {
-  text-align: center;
-}
+
 .openSourceCode {
   margin: 10px 10px 10px 10px;
   font-size: 80%;
@@ -63,6 +61,9 @@ img {
 }
 .githubLink:hover {
   text-decoration: underline;
+}
+.input-btn {
+  background-color: transparent;
 }
 
 #temperature {

@@ -33,7 +33,7 @@ let year = now.getFullYear();
 
 let month = months[now.getMonth()];
 let day = days[now.getDay()];
-h2.innerHTML = `${day} ${month} ${date}, ${hours}: ${minutes} ${year}`;
+h2.innerHTML = `${day} ${month} ${date} ${year}, ${hours}: ${minutes} `;
 
 let apiKey = "2980ff43226d67e53abfcdb6d457dcc8";
 
